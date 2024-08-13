@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="2068" dy="1448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1518" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -126,25 +126,25 @@
           <mxGeometry x="20" y="360" width="2865" height="265" as="geometry" />
         </mxCell>
         <mxCell id="YADt3aw7uXpeILule24l-29" value="Gera a CCB" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
-          <mxGeometry x="840" y="50" width="120" height="60" as="geometry" />
+          <mxGeometry x="840" y="102.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YADt3aw7uXpeILule24l-32" value="Notifica o Cliente via Whatsapp" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
-          <mxGeometry x="1040" y="50" width="120" height="60" as="geometry" />
+          <mxGeometry x="1040" y="102.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YADt3aw7uXpeILule24l-37" value="Liquidação da CCB" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
-          <mxGeometry x="1245" y="50" width="120" height="60" as="geometry" />
+          <mxGeometry x="1245" y="102.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YADt3aw7uXpeILule24l-45" value="Retem o IOF e a tarifa do custo de emissão" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
-          <mxGeometry x="1565" y="50" width="120" height="60" as="geometry" />
+          <mxGeometry x="1510" y="102.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YADt3aw7uXpeILule24l-50" value="Liberação do crédito" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
-          <mxGeometry x="1725" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="1725" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YADt3aw7uXpeILule24l-54" value="Fecha o lote diário de CCB&#39;s e emite o termo de CESSÃO para assinatura" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
-          <mxGeometry x="1725" y="110" width="120" height="60" as="geometry" />
+          <mxGeometry x="1725" y="162.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YADt3aw7uXpeILule24l-65" value="Conclui assinatura do Termo de cessão" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
-          <mxGeometry x="2065" y="85" width="120" height="60" as="geometry" />
+          <mxGeometry x="2010" y="85" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YADt3aw7uXpeILule24l-67" value="Processamento da Cessão no sistema" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
           <mxGeometry x="2265" y="85" width="120" height="60" as="geometry" />
@@ -182,7 +182,7 @@
           <mxGeometry x="20" y="625" width="2865" height="120" as="geometry" />
         </mxCell>
         <mxCell id="YADt3aw7uXpeILule24l-77" value="Recebível liquidado" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="YADt3aw7uXpeILule24l-1">
-          <mxGeometry x="2665" y="23.75" width="120" height="60" as="geometry" />
+          <mxGeometry x="2650" y="23.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YADt3aw7uXpeILule24l-75" value="Gestão de recebíveis" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="YADt3aw7uXpeILule24l-1">
           <mxGeometry x="2465" y="23.75" width="120" height="60" as="geometry" />
@@ -196,14 +196,14 @@
         <mxCell id="YADt3aw7uXpeILule24l-39" value="Disponibiliza recursos na conta da SCD" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="YADt3aw7uXpeILule24l-1">
           <mxGeometry x="1245" y="36.25" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YADt3aw7uXpeILule24l-79" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#000000;" vertex="1" parent="YADt3aw7uXpeILule24l-1">
-          <mxGeometry x="2835" y="38.75" width="30" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="YADt3aw7uXpeILule24l-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YADt3aw7uXpeILule24l-1" source="YADt3aw7uXpeILule24l-75" target="YADt3aw7uXpeILule24l-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YADt3aw7uXpeILule24l-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YADt3aw7uXpeILule24l-1" source="YADt3aw7uXpeILule24l-73" target="YADt3aw7uXpeILule24l-75">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YADt3aw7uXpeILule24l-79" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#000000;" vertex="1" parent="YADt3aw7uXpeILule24l-1">
+          <mxGeometry x="2810" y="38.75" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YADt3aw7uXpeILule24l-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YADt3aw7uXpeILule24l-1" source="YADt3aw7uXpeILule24l-77" target="YADt3aw7uXpeILule24l-79">
           <mxGeometry relative="1" as="geometry" />
@@ -217,7 +217,7 @@
         <mxCell id="YADt3aw7uXpeILule24l-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="YADt3aw7uXpeILule24l-54" target="YADt3aw7uXpeILule24l-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YADt3aw7uXpeILule24l-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="YADt3aw7uXpeILule24l-63" target="YADt3aw7uXpeILule24l-65">
+        <mxCell id="YADt3aw7uXpeILule24l-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="YADt3aw7uXpeILule24l-63" target="YADt3aw7uXpeILule24l-65">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YADt3aw7uXpeILule24l-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="YADt3aw7uXpeILule24l-37" target="YADt3aw7uXpeILule24l-39">
