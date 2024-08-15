@@ -1,9 +1,189 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="Página-1" id="bcbr7JgEXqrUYwVBz5A6">
-    <mxGraphModel>
+    <mxGraphModel dx="1290" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KoNMWLff_biUB3zPrYIF-1" value="Consignado Privado - Gestão de Funcionários" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="1010" height="715" as="geometry">
+            <mxRectangle x="40" y="40" width="40" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-2" value="RH" style="swimlane;html=1;startSize=20;horizontal=0;rounded=1;" vertex="1" parent="KoNMWLff_biUB3zPrYIF-1">
+          <mxGeometry x="20" width="990" height="355" as="geometry" />
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KoNMWLff_biUB3zPrYIF-2" source="KoNMWLff_biUB3zPrYIF-4" target="KoNMWLff_biUB3zPrYIF-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-4" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="KoNMWLff_biUB3zPrYIF-2">
+          <mxGeometry x="40" y="95" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-5" value="Efetua uma extração de funcionários da base conforme a política de crédito consignado da empresa." style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="KoNMWLff_biUB3zPrYIF-2">
+          <mxGeometry x="120" y="75" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="KoNMWLff_biUB3zPrYIF-2" source="KoNMWLff_biUB3zPrYIF-7" target="KoNMWLff_biUB3zPrYIF-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-7" value="Efetua o upload na plataforma do consignado com a base de funcionário." style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="KoNMWLff_biUB3zPrYIF-2">
+          <mxGeometry x="345" y="75" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-8" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Cadastrado = 1&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Apto = 2&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Inapto = 3&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Desligado = 4&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Afastado = 5&lt;/div&gt;&#xa;&#xa;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="KoNMWLff_biUB3zPrYIF-2">
+          <mxGeometry x="610" y="50" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-9" value="Plataforma&amp;nbsp;" style="swimlane;html=1;startSize=20;horizontal=0;rounded=1;" vertex="1" parent="KoNMWLff_biUB3zPrYIF-1">
+          <mxGeometry x="20" y="355" width="990" height="240" as="geometry">
+            <mxRectangle x="20" y="120" width="760" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KoNMWLff_biUB3zPrYIF-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605.0000000000002" y="60" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="KoNMWLff_biUB3zPrYIF-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1660" y="60" as="targetPoint" />
+            <mxPoint x="1845" y="120" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KoNMWLff_biUB3zPrYIF-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="695" y="30" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KoNMWLff_biUB3zPrYIF-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="-30" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-14" value="Aprovado" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KoNMWLff_biUB3zPrYIF-13">
+          <mxGeometry x="0.5133" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="-27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KoNMWLff_biUB3zPrYIF-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="755" y="-75" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KoNMWLff_biUB3zPrYIF-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="-75" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-17" value="Recusado" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KoNMWLff_biUB3zPrYIF-16">
+          <mxGeometry x="0.3487" y="1" relative="1" as="geometry">
+            <mxPoint x="-14" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KoNMWLff_biUB3zPrYIF-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1175" y="-75" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KoNMWLff_biUB3zPrYIF-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="100" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-22" value="Split para boleto" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KoNMWLff_biUB3zPrYIF-21">
+          <mxGeometry x="-0.1957" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="KoNMWLff_biUB3zPrYIF-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="565" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KoNMWLff_biUB3zPrYIF-9" source="KoNMWLff_biUB3zPrYIF-25" target="KoNMWLff_biUB3zPrYIF-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-25" value="Notifica o funcionário por E-mail ou WhatsApp&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="KoNMWLff_biUB3zPrYIF-9">
+          <mxGeometry x="645" y="77.5" width="170" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-26" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#FFFFFF;" vertex="1" parent="KoNMWLff_biUB3zPrYIF-9">
+          <mxGeometry x="910" y="105" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-27" value="FUNDO" style="swimlane;html=1;startSize=20;horizontal=0;rounded=1;" vertex="1" parent="KoNMWLff_biUB3zPrYIF-1">
+          <mxGeometry x="20" y="595" width="990" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KoNMWLff_biUB3zPrYIF-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2584.9999999999995" y="53.75" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KoNMWLff_biUB3zPrYIF-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2384.9999999999995" y="53.75" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KoNMWLff_biUB3zPrYIF-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2769.9999999999995" y="53.75" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-31" value="Define a política de crédito.&amp;nbsp;" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;" vertex="1" parent="KoNMWLff_biUB3zPrYIF-27">
+          <mxGeometry x="150" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="KoNMWLff_biUB3zPrYIF-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2345" y="505" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KoNMWLff_biUB3zPrYIF-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1805" y="565" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="KoNMWLff_biUB3zPrYIF-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1865" y="691.2608695652175" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KoNMWLff_biUB3zPrYIF-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1325" y="522.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KoNMWLff_biUB3zPrYIF-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1385" y="691.2608695652175" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KoNMWLff_biUB3zPrYIF-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="270" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KoNMWLff_biUB3zPrYIF-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="462.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KoNMWLff_biUB3zPrYIF-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1180" y="240.04347826086962" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KoNMWLff_biUB3zPrYIF-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1805" y="430" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KoNMWLff_biUB3zPrYIF-1" source="KoNMWLff_biUB3zPrYIF-5" target="KoNMWLff_biUB3zPrYIF-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="KoNMWLff_biUB3zPrYIF-1" source="KoNMWLff_biUB3zPrYIF-31" target="KoNMWLff_biUB3zPrYIF-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KoNMWLff_biUB3zPrYIF-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KoNMWLff_biUB3zPrYIF-1" source="KoNMWLff_biUB3zPrYIF-8" target="KoNMWLff_biUB3zPrYIF-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
