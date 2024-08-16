@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="913" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="808" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,7 +20,7 @@
           <mxGeometry x="80" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GoYFg1bczMCrbbcXfbrg-40" value="Assinar CCB" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
-          <mxGeometry x="1200" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="1360" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GoYFg1bczMCrbbcXfbrg-76" value="Pagamento do Boleto" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
           <mxGeometry x="2755" y="30" width="120" height="60" as="geometry" />
@@ -31,13 +31,13 @@
         <mxCell id="GoYFg1bczMCrbbcXfbrg-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-21" source="GoYFg1bczMCrbbcXfbrg-13" target="GoYFg1bczMCrbbcXfbrg-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GoYFg1bczMCrbbcXfbrg-13" value="Inserir Dados da Operação&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Plataforma&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
-          <mxGeometry x="80" y="50" width="120" height="60" as="geometry" />
+        <mxCell id="GoYFg1bczMCrbbcXfbrg-13" value="Inserir Dados da Operação&lt;br&gt;(Simulação)&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Plataforma&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+          <mxGeometry x="65" y="45" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="GoYFg1bczMCrbbcXfbrg-15" value="Inserir Dados Pessoais e Bancários&lt;br&gt;&lt;br&gt;&lt;b&gt;Plataforma&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
-          <mxGeometry x="220" y="50" width="120" height="60" as="geometry" />
+        <mxCell id="GoYFg1bczMCrbbcXfbrg-15" value="Inserir Dados Pessoais&lt;br&gt;(Obrigatórios para motor)&lt;br&gt;&lt;b&gt;Plataforma&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+          <mxGeometry x="230" y="50" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="GoYFg1bczMCrbbcXfbrg-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-21" source="GoYFg1bczMCrbbcXfbrg-27" target="GoYFg1bczMCrbbcXfbrg-29">
+        <mxCell id="GoYFg1bczMCrbbcXfbrg-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-21" source="GoYFg1bczMCrbbcXfbrg-27" target="GoYFg1bczMCrbbcXfbrg-83">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GoYFg1bczMCrbbcXfbrg-27" value="Selecionar Oferta Desejada&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Plataforma&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
@@ -47,18 +47,24 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GoYFg1bczMCrbbcXfbrg-29" value="Upload de documentos&lt;br&gt;(Doc identificação com foto, Selfie e Comprovante de Endereço&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;b&gt;Plataforma&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
-          <mxGeometry x="580" y="35" width="180" height="90" as="geometry" />
+          <mxGeometry x="790" y="35" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="GoYFg1bczMCrbbcXfbrg-31" value="Validação de documentação" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
-          <mxGeometry x="830" y="25" width="110" height="110" as="geometry" />
+          <mxGeometry x="1020" y="25" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="GoYFg1bczMCrbbcXfbrg-35" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
-          <mxGeometry x="1000" y="70" width="20" height="20" as="geometry" />
+          <mxGeometry x="1170" y="70" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GoYFg1bczMCrbbcXfbrg-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-21" source="GoYFg1bczMCrbbcXfbrg-31" target="GoYFg1bczMCrbbcXfbrg-35">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1020" y="80" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="GoYFg1bczMCrbbcXfbrg-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-21" source="GoYFg1bczMCrbbcXfbrg-83" target="GoYFg1bczMCrbbcXfbrg-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GoYFg1bczMCrbbcXfbrg-83" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Dados cadastrais Cliente&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;b&gt;Plataforma&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+          <mxGeometry x="580" y="35" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-22" value="SCD" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
           <mxGeometry x="20" y="280" width="3220" height="360" as="geometry" />
@@ -77,7 +83,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GoYFg1bczMCrbbcXfbrg-19" value="Motor de crédito" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
-          <mxGeometry x="240" y="30" width="80" height="80" as="geometry" />
+          <mxGeometry x="270" y="30" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GoYFg1bczMCrbbcXfbrg-24" value="Elabora Oferta de Crédito&lt;br&gt;&lt;br&gt;&lt;b&gt;Plataforma&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
           <mxGeometry x="420" y="40" width="120" height="60" as="geometry" />
@@ -86,19 +92,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GoYFg1bczMCrbbcXfbrg-36" value="Emissão de CCB&lt;br&gt;&lt;br&gt;&lt;b&gt;Plataforma&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
-          <mxGeometry x="825" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="1015" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GoYFg1bczMCrbbcXfbrg-38" value="Submeter CCB para assinatura Eletrônica&amp;nbsp;&lt;br&gt;(WhatsApp)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Plataforma&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
-          <mxGeometry x="1018" y="30" width="165" height="80" as="geometry" />
+          <mxGeometry x="1230" y="120" width="165" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GoYFg1bczMCrbbcXfbrg-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22" source="GoYFg1bczMCrbbcXfbrg-42" target="GoYFg1bczMCrbbcXfbrg-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GoYFg1bczMCrbbcXfbrg-42" value="Conclui assinatura da CCB&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Plataforma&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
-          <mxGeometry x="1370" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="1420" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GoYFg1bczMCrbbcXfbrg-44" value="Liquidação da CCB" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
-          <mxGeometry x="1570" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="1570" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GoYFg1bczMCrbbcXfbrg-48" value="Retem o IOF e a tarifa do custo de emissão.&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
           <mxGeometry x="1790" y="70" width="120" height="60" as="geometry" />
@@ -152,7 +158,7 @@
           <mxGeometry x="20" y="640" width="3220" height="160" as="geometry" />
         </mxCell>
         <mxCell id="GoYFg1bczMCrbbcXfbrg-21" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="GoYFg1bczMCrbbcXfbrg-5">
-          <mxGeometry x="265" y="85" width="30" height="30" as="geometry" />
+          <mxGeometry x="295" y="85" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GoYFg1bczMCrbbcXfbrg-46" value="Disponibiliza recursos na conta da SCD" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="GoYFg1bczMCrbbcXfbrg-5">
           <mxGeometry x="1570" y="40" width="120" height="60" as="geometry" />
